@@ -18,8 +18,8 @@ from quart import Quart, request, jsonify
 app = Quart(__name__)
 
 Config = {
-    "Bot Name": "prem Gamble Bot", # will be in all embeds
-    "Bot Icon": "image link", # will be in all embeds
+    "Bot Name": "Ps99Gamble", # will be in all embeds
+    "Bot Icon": "https://cdn.discordapp.com/attachments/1190106501373767712/1229207400825749604/download_4.jpeg?ex=662ed799&is=661c6299&hm=72ca1949fa2c988bea1380a3a457a527f94855a041ab2d734b20952629678f8e&", # will be in all embeds
     "Towers" : { # Config for towers
         "WinChance" : 62,  # Percent they will win when they click a tower
         "Multis" : [1.42, 2.02, 2.86, 4.05, 5.69]  # Multipliers On The Blocks
@@ -27,36 +27,36 @@ Config = {
     "Mines" : { # Config for mines
         "House" : 0.14,  # The Multiplier Will Be Multiplied by 1.00 - This
     },
-    "Logs": id, # log channel
+    "Logs": "1229206557074526258", # log channel
     "Coinflip" : { # Config for coinflip
-        "1v1" : "id",  # Channel That Coinflips Be In
+        "1v1" : "1229206806233088050",  # Channel That Coinflips Be In
         "House": 3.5 # House Edge (%)
     },
     "Rains" : { # Config for rains
-        "Channel" : "id", # Set to the id the channel rains will be in
+        "Channel" : "1229207030917501009", # Set to the id the channel rains will be in
     },
     "AdminCommands" : {
-        "UserID" : ["id"], # user id (only put your user id) for setgems, confirmdeposit, addgems, removegems
+        "UserID" : ["1189377032560332861"], # user id (only put your user id) for setgems, confirmdeposit, addgems, removegems
     },
     "AutoDeposits" : {
-        "Webhook" : "", # auto deposits or /confirmdeposit
+        "Webhook" : "https://discord.com/api/webhooks/1229206199589802054/0ZAOE24e9NurqXDAhRQqJxtGHRy1hXai-5UmBhVVz3yM88Y48L62K6EmzYmay3Dbt7AB", # auto deposits or /confirmdeposit
     },
     "Affiliates" : {
-        "Webhook" : "https://discord.com/api/webhooks//--w", # webhook for when someone gets affiliated
+        "Webhook" : "https://discord.com/api/webhooks/1229205281599127652/ye8fMp7CruJGbaw6t8YwmAgRjN85Fh-Z4JCPzmTqr1LRzYoIHMby-4gk33etLMpyrgAE", # webhook for when someone gets affiliated
     },
     "Tips" : {
-        "Webhook" : "https://discord.com/api/webhooks//-w3Hj9geeU1x6o-5mHEkanLdNZI-vK0N1", # webhook for tips
+        "Webhook" : "https://discord.com/api/webhooks/1229204940669325433/11n0aBLnDfeloS8AZSdB-SDGGRm-nATtkXSuWXEy_EtdDpGNdfoFx0IZKlMeEgUExV0O", # webhook for tips
     },
     "Promocodes" : {
-        "Webhook" : "https://discord.com/api/webhooks//", # webhook for promocodes
-        "RoleID" : "", # role id for ping
+        "Webhook" : "https://discord.com/api/webhooks/1229204343014690968/UTS_MyRZdS9YK7gR84JXuL2lBSD5e9s9y14ZMAw3lGC5nRgYK_-KUnChNkmzLzoSdzyM", # webhook for promocodes
+        "RoleID" : "1201170987652219000", # role id for ping
     },
     "Upgrader": { # Config for upgrader
         "House": 0.95 # house edge (winnings*house)
     },
     "Rakeback" : 1.5, # Rakeback %
     "Username": "username", # The Username Of The Account Running The Bot
-    "DiscordBotToken": ".G8qSbD." # The token of the discord bot
+    "DiscordBotToken": "MTIyOTIwNzY5NjIzMDU4NDQ0Mg.GwfwQ3.GwkrWCyrfDnQNZYrmUZQptGe-NUhePyAM4ggro" # The token of the discord bot
 }
 username = Config['Username']
 
